@@ -7,13 +7,13 @@ const Searchs = ({ setSearchs }) => {
   };
   return (
     <form
-      className={`${styles.searchs} d-flex flex-sm-row flex-column align-items-center justify-content-center gap-4 mb-5`}
+      className={`${styles.searchs} d-flex flex-sm-row flex-column align-items-center justify-content-center gap-4 mb-2`}
     >
       <input
         onChange={(e) => {
           setSearchs(e.target.value);
         }}
-        placeholder="Search here"
+        placeholder="Put a ID number 1-126"
         className={styles.input}
         type="text"
       />

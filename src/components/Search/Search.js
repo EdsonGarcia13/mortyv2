@@ -14,7 +14,7 @@ const Search = ({ setSearch, updatePageNumber }) => {
           updatePageNumber(1);
           setSearch(e.target.value);
         }}
-        placeholder="Search here"
+        placeholder="Search here characters with name"
         className={styles.input}
         type="text"
       />

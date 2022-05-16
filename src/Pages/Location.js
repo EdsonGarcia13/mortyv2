@@ -11,7 +11,6 @@ const Location = () => {
   let { dimension, type, name } = info;
   let [number, setNumber] = useState(1);
   let [searchs, setSearchs] = useState("");
-  
   let api = `https://rickandmortyapi.com/api/location/${number}`;
 
   useEffect(() => {
@@ -45,11 +44,9 @@ const Location = () => {
     })();
   }, [ap]);
 
+ 
 
-
-
-
-  console.log();
+  // console.log(results);
   return (
     <div className="container">
       <div className="container2">
@@ -71,7 +68,7 @@ const Location = () => {
         <div className="col-lg-3 col-12 mb-4">
           <h4 className="text-center text-white mb-4">Dimensions</h4>
 
-          <InputGroup name="Dimension" changeID={setNumber} total={126} />
+          <InputGroup name="Location" changeID={setNumber} total={126} />
         </div>
         <div className="col-lg-8 col-12">
           <div className="row">

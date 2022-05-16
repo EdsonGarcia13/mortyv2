@@ -4,10 +4,10 @@ import FilterBTN from "../FilterBTN";
 const Status = ({ updateStatus, updatePageNumber }) => {
   let status = ["Alive", "Dead", "Unknown"];
   return (
-    <div className="accordion-item">
+    <div className="accordion">
       <h2 className="accordion-header" id="headingOne">
         <button
-          className="accordion-button"
+          className="btn btn-success"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseOne"

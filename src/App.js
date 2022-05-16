@@ -17,19 +17,20 @@ import Location from "./Pages/Location";
 import CardDetails from "./components/Card/CardDetails";
 
 function App() {
+  
+  
+//lo corecto es que este componente sea home, modifique para poder visualizar de inicio a Location 
   return (
     <HashRouter>
       <div className="App">
         <Navbar />
-      </div>
+      </div> 
       <Routes>
-        <Route path="/" element={<Character />} />
+        <Route path="/" element={<Location />} />
         <Route path="/:id" element={<CardDetails />} />
-
         <Route path="/episodes" element={<Episodes />} />
         <Route path="/episodes/:id" element={<CardDetails />} />
-
-        <Route path="/location" element={<Location />} />
+        <Route path="/location" element={<Character />} />
         <Route path="/location/:id" element={<CardDetails />} />
       </Routes>
     </HashRouter>

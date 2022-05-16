@@ -50,7 +50,7 @@ const Navbar = () => {
         >
           <div className="navbar-nav fs-2">
             <NavLink to="/" className="nav-link text-white">
-              Character
+              Location
             </NavLink>
             <NavLink to="/episodes" className="nav-link text-white">
               Episode
@@ -60,7 +60,7 @@ const Navbar = () => {
               className="nav-link text-white"
               to="/location"
             >
-              Location
+              Character
             </NavLink>
           </div>
         </div>

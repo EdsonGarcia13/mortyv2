@@ -16,10 +16,10 @@ const Species = ({ updateSpecies, updatePageNumber }) => {
     "Planet",
   ];
   return (
-    <div className="accordion-item ">
+    <div className="accordion">
       <h2 className="accordion-header" id="headingTwo">
         <button
-          className="accordion-button collapsed"
+          className="btn btn-success"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseTwo"
